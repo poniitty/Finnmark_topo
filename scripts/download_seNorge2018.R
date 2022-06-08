@@ -1,7 +1,7 @@
 library(tidyverse)
 
 
-years <- c(2013:2018)
+years <- c(1987:2020)
 
 tg_urls <- paste0("https://thredds.met.no/thredds/fileServer/Northern_Forest/seNorge_2018_northernforest_tile2/TG/seNorge2018_northernforest_tile2_TG_",
                   years,

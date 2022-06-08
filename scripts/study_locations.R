@@ -12,4 +12,4 @@ aoi <- bb %>%
   st_as_sfc() %>% 
   st_as_sf()
 
-aoi %>% st_write("data/aoi.gpkg")
+aoi %>% st_write("data/aoi.gpkg", append = F)
